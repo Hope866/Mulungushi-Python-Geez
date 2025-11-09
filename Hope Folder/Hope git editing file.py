@@ -1,5 +1,6 @@
 # Make a calculator that gets 2 inputs from the user 
 # the calculator that can multiply, add and find the modulas of the numbers 
+# This is a simple calculator program.
 
 
 import math
