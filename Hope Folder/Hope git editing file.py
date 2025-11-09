@@ -38,7 +38,7 @@ def power(a, c):
 def square_root(a):
     if a < 0:
         print ("~----------------------------------------------------------------------------------~")
-        print("Error: Are you being serious with me, Cannot take square root of a negative number.")
+        print("Error: Are you being serious with us, Cannot take square root of a negative number.")
         print ("~----------------------------------------------------------------------------------~")
         return None
     return math.sqrt(a)
