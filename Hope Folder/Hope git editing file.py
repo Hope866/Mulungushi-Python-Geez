@@ -110,7 +110,7 @@ def calculator():
         print("12- Memory Recall (MR)")
         print("13- Memory Clear (MC)")
         print("14- Exit")
-        print("Goodbye!")
+        print("Thank you for using the calculator.!")
 
         try:
             option = int(input("Choose an option (1-14): "))
