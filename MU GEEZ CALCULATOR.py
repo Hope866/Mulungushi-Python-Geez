@@ -15,13 +15,13 @@ def Addition(a, c):
     return a + c
 def Subtraction(a, c): 
     return a - c
-def Multiplication(a, c): 
+def Multiplication(a, c):
     return a * c
 
 def Division(a, c):
     if c == 0:
         print ("~----------------------------------------------------------------------------------~")
-        print("Error: I'm sure you are smarter than a cat, Division by zero is not allowed.")
+        print("Error: I'm sure you are smart than a cat, Division by zero is not allowed.")
         print ("~----------------------------------------------------------------------------------~")
         return None
     return a / c
