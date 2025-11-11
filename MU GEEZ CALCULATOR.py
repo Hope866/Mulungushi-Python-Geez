@@ -18,7 +18,7 @@ def Subtraction(a, c):
 def Multiplication(a, c): 
     return a * c
 
-def Divide(a, c):
+def Division(a, c):
     if c == 0:
         print ("~----------------------------------------------------------------------------------~")
         print("Error: I'm sure you are smarter than a cat, Division by zero is not allowed.")
@@ -132,7 +132,7 @@ def calculator():
                 result = Multiplication(num1, num2)
                 update_history(f"{num1} * {num2}", result)
             elif option == 4:
-                result = Divide(num1, num2)
+                result = Division(num1, num2)
                 update_history(f"{num1} / {num2}", result)
             elif option == 5:
                 result = Modulus(num1, num2)
